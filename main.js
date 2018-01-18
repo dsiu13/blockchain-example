@@ -63,8 +63,3 @@ class Blockchain {
   };
 
 }; // class Blockchain
-
-let testCoin = new Blockchain();
-testCoin.addBlock(new Block(1, "2/2/2017", {amount: 8}));
-testCoin.addBlock(new Block(2, "4/20/2017", {amount: 16}));
-testCoin.addBlock(new Block(3, "8/08/2017", {amount: 32}));
